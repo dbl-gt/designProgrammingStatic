@@ -1,3 +1,9 @@
+/*
+* Design Programming '19
+* Nirvik Saha, Dennis R Shelden
+* Georgia Institute of Technology
+*/
+
 class DrawObj{
     constructor(n_,x_,y_,l_,w_,h_,re_,gr_,bl_){
         this.name=n_;
@@ -77,7 +83,7 @@ class DrawObj{
             specular: 0x000000,
             shininess:1,
             flatShading: true
-        })
+        });
         var mesh=new THREE.Mesh(geo, mat);
         mesh.position.x=this.x-250;
         mesh.position.y=this.y-250;

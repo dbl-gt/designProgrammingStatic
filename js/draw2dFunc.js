@@ -1,4 +1,8 @@
-//
+/*
+* Design Programming '19
+* Nirvik Saha, Dennis R Shelden
+* Georgia Institute of Technology
+*/
 //
 //
 var init2dFunc=function(){

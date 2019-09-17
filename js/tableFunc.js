@@ -1,9 +1,15 @@
+
+/*
+* Design Programming '19
+* Nirvik Saha, Dennis R Shelden
+* Georgia Institute of Technology
+*/
+
 // this is not a class
 // contains function to separate the table of objects
-
-
 // called from file: button func
-// generate the table 
+
+// generate the table
 function generateTable(tblName, tdclass){
     // tblName="editTable", 
     // tdclass = "dynamiCells", "floatingCells"
